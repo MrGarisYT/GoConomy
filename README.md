@@ -1,6 +1,3 @@
-Economy Plugin for EndStone
-An advanced economy plugin designed for EndStone servers, featuring currency management, player transactions, and integration with popular Minecraft economy systems.
-
 📦 Features
 Currency System: Manage virtual currencies for players.
 
@@ -9,37 +6,25 @@ Transactions: Track and record player transactions.
 Integration: Compatible with popular economy plugins like EssentialsX and Gringotts.
 
 API Access: Provides a plugin API for developers to extend functionality.
-
 🚀 Installation
 Download the Plugin:
 
-Clone this repository:
-
-bash
-Copy
-Edit
+1. Clone this repository:
 git clone https://github.com/YourUsername/economy-plugin.git
 Or download the ZIP file from the releases page.
 
-Build the Plugin:
+2. Build the Plugin:
 
 Navigate to the project directory:
-
-bash
-Copy
-Edit
 cd economy-plugin
 Build the plugin using Go:
-
-bash
-Copy
-Edit
 go build -o EconomyPlugin.so -buildmode=plugin
-Deploy the Plugin:
+
+3. Deploy the Plugin:
 
 Place EconomyPlugin.so into your EndStone server's plugin directory.
 
-Restart the Server:
+4. Restart the Server:
 
 Restart your EndStone server to load the new plugin.
 
@@ -66,22 +51,4 @@ Commands:
 API Usage:
 
 Import the plugin API in your custom plugins:
-
-go
-Copy
-Edit
-import "github.com/YourUsername/economy-plugin/api"
-🤝 Contributing
-Contributions are welcome! To contribute:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature-branch).
-
-Commit your changes (git commit -am 'Add new feature').
-
-Push to the branch (git push origin feature-branch).
-
-Open a pull request.
-
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+import "github.com/MrGarisYT/GoConomy/api"
